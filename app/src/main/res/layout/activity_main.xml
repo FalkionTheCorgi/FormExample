@@ -6,6 +6,7 @@
     android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="32dp"
     tools:context=".MainActivity">
 
     <EditText
@@ -14,8 +15,6 @@
         android:layout_height="40dp"
         android:background="#fff"
         android:hint="Email"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="200dp"
         android:padding="8dp"/>
     <EditText
@@ -26,8 +25,6 @@
         android:layout_below="@+id/email"
         android:hint="Senha"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:padding="8dp"/>
     <Button
         android:id="@+id/button_login"
@@ -35,8 +32,6 @@
         android:layout_height="50dp"
         android:layout_below="@+id/senha"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:backgroundTint="@color/button_form"
         android:text="LOGIN"
         android:textColor="@color/button_txt"/>
